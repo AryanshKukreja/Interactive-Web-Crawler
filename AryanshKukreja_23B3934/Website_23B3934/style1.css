@@ -1,0 +1,17 @@
+th,td{
+	border:1px solid black;
+}
+th,td{
+	background-color:skyblue;
+	padding:15px;
+	spacing:10px;
+}
+tr:nth-child(even) {
+	background-color: orange;
+}
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
